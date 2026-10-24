@@ -1,0 +1,51 @@
+# ========================
+# BACKEND (Python/FastAPI)
+# ========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+
+# ChromaDB (Vector Database)
+# Yes, you MUST ignore ChromaDB! It contains large binary files that will bloat your repository.
+backend/chroma_db/
+chroma_db/
+
+# Cloned Repositories (Do not commit cloned repos)
+backend/repos/
+repos/
+
+# Logs
+*.log
+
+# ========================
+# FRONTEND (Node/Vite/React)
+# ========================
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production build directories
+dist/
+dist-ssr/
+frontend/dist/
+
+# Local env files
+*.local
+
+# ========================
+# OS & EDITOR FILES
+# ========================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
